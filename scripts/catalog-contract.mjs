@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 const repositoryRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const catalogRoot = join(repositoryRoot, "afk", "catalog");
 const catalogFiles = ["agents.json", "hooks.json", "mcps.json", "presets.json", "profiles.json", "rules.json", "skills.json", "tools.json"];
-const canonicalRepository = "https://github.com/logbookfordevs/ai-field-kit-catalog";
+const canonicalRepository = "https://github.com/logbookfordevs/logbook-atlas";
 const legacyRepository = "https://github.com/logbookfordevs/ai-field-kit";
 
 function readManifest(fileName) {

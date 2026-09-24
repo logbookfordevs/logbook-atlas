@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "defaultsSource": "logbookfordevs/ai-field-kit-catalog",
+  "defaultsSource": "logbookfordevs/logbook-atlas",
   "presets": [
     {
       "id": "afk-architect",

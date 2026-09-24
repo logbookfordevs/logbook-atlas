@@ -1,12 +1,12 @@
 {
     "version": 1,
-    "defaultSource": "https://github.com/logbookfordevs/ai-field-kit-catalog",
+    "defaultSource": "https://github.com/logbookfordevs/logbook-atlas",
     "scopes": [],
     "items": [
         {
             "id": "afk-cli",
             "label": "AFK - CLI",
-            "source": "https://github.com/logbookfordevs/ai-field-kit-catalog",
+            "source": "https://github.com/logbookfordevs/logbook-atlas",
             "args": [
                 "--skill",
                 "afk-cli",
@@ -20,7 +20,7 @@
         {
             "id": "afk-animated-driven-frontend",
             "label": "AFK - Animated Driven Frontend",
-            "source": "https://github.com/logbookfordevs/ai-field-kit-catalog",
+            "source": "https://github.com/logbookfordevs/logbook-atlas",
             "args": [
                 "--skill",
                 "afk-animated-driven-frontend",
@@ -36,7 +36,7 @@
         {
             "id": "afk-ask",
             "label": "AFK - Ask",
-            "source": "https://github.com/logbookfordevs/ai-field-kit-catalog",
+            "source": "https://github.com/logbookfordevs/logbook-atlas",
             "args": [
                 "--skill",
                 "afk-ask",
@@ -50,7 +50,7 @@
         {
             "id": "afk-code-grill",
             "label": "AFK - Code Grill",
-            "source": "https://github.com/logbookfordevs/ai-field-kit-catalog",
+            "source": "https://github.com/logbookfordevs/logbook-atlas",
             "args": [
                 "--skill",
                 "afk-code-grill",
@@ -68,7 +68,7 @@
         {
             "id": "afk-design-grill",
             "label": "AFK - Design Grill",
-            "source": "https://github.com/logbookfordevs/ai-field-kit-catalog",
+            "source": "https://github.com/logbookfordevs/logbook-atlas",
             "args": [
                 "--skill",
                 "afk-design-grill",
@@ -110,7 +110,7 @@
         {
             "id": "afk-create-agent",
             "label": "AFK - Create Agent",
-            "source": "https://github.com/logbookfordevs/ai-field-kit-catalog",
+            "source": "https://github.com/logbookfordevs/logbook-atlas",
             "args": [
                 "--skill",
                 "afk-create-agent",
@@ -124,7 +124,7 @@
         {
             "id": "afk-to-spec",
             "label": "AFK - To Spec",
-            "source": "https://github.com/logbookfordevs/ai-field-kit-catalog",
+            "source": "https://github.com/logbookfordevs/logbook-atlas",
             "args": [
                 "--skill",
                 "afk-to-spec",
@@ -138,7 +138,7 @@
         {
             "id": "afk-to-tickets",
             "label": "AFK - To Tickets",
-            "source": "https://github.com/logbookfordevs/ai-field-kit-catalog",
+            "source": "https://github.com/logbookfordevs/logbook-atlas",
             "args": [
                 "--skill",
                 "afk-to-tickets",
@@ -166,7 +166,7 @@
         {
             "id": "writing-for-humans",
             "label": "Writing for Humans",
-            "source": "https://github.com/logbookfordevs/ai-field-kit-catalog",
+            "source": "https://github.com/logbookfordevs/logbook-atlas",
             "args": [
                 "--skill",
                 "writing-for-humans",
@@ -180,7 +180,7 @@
         {
             "id": "afk-implement",
             "label": "AFK - Implement",
-            "source": "https://github.com/logbookfordevs/ai-field-kit-catalog",
+            "source": "https://github.com/logbookfordevs/logbook-atlas",
             "args": [
                 "--skill",
                 "afk-implement",
@@ -197,7 +197,7 @@
         {
             "id": "afk-compass",
             "label": "AFK - Compass",
-            "source": "https://github.com/logbookfordevs/ai-field-kit-catalog",
+            "source": "https://github.com/logbookfordevs/logbook-atlas",
             "args": [
                 "--skill",
                 "afk-compass",
@@ -211,7 +211,7 @@
         {
             "id": "afk-architect",
             "label": "AFK - Architect",
-            "source": "https://github.com/logbookfordevs/ai-field-kit-catalog",
+            "source": "https://github.com/logbookfordevs/logbook-atlas",
             "args": [
                 "--skill",
                 "afk-architect",
@@ -225,7 +225,7 @@
         {
             "id": "afk-profile-use",
             "label": "AFK - Profile Use",
-            "source": "https://github.com/logbookfordevs/ai-field-kit-catalog",
+            "source": "https://github.com/logbookfordevs/logbook-atlas",
             "args": [
                 "--skill",
                 "afk-profile-use",
@@ -717,7 +717,7 @@
         {
             "id": "afk-code-review",
             "label": "AFK - Code Review",
-            "source": "https://github.com/logbookfordevs/ai-field-kit-catalog",
+            "source": "https://github.com/logbookfordevs/logbook-atlas",
             "args": [
                 "--skill",
                 "afk-code-review",
@@ -731,7 +731,7 @@
         {
             "id": "afk-code-review-verdicts",
             "label": "AFK - Code Review Verdicts",
-            "source": "https://github.com/logbookfordevs/ai-field-kit-catalog",
+            "source": "https://github.com/logbookfordevs/logbook-atlas",
             "args": [
                 "--skill",
                 "afk-code-review-verdicts",
@@ -747,7 +747,7 @@
         {
             "id": "afk-static-review",
             "label": "AFK - Static Review",
-            "source": "https://github.com/logbookfordevs/ai-field-kit-catalog",
+            "source": "https://github.com/logbookfordevs/logbook-atlas",
             "args": [
                 "--skill",
                 "afk-static-review",

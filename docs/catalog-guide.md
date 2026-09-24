@@ -18,24 +18,24 @@ Each name links to its instructions. “What you get” describes the intended o
 
 | Skill | When to use it | What you get |
 | --- | --- | --- |
-| [afk-cli](https://github.com/logbookfordevs/ai-field-kit-catalog/tree/main/skills/afk-cli) | You want your agent to manage AFK setup, catalogs, or profiles. | Guided setup, catalog, skill, profile, and maintenance workflows, with applied changes checked afterward. Invoke manually, for example: “Use afk-cli to create a project skill profile.” |
-| [afk-compass](https://github.com/logbookfordevs/ai-field-kit-catalog/tree/main/skills/afk-compass) | You know the task but are unsure which skill fits. | A recommended route, reason, and invocation. |
-| [afk-code-grill](https://github.com/logbookfordevs/ai-field-kit-catalog/tree/main/skills/afk-code-grill) | Technical decisions need pressure before coding. | A focused grilling session using Truss trade-offs and deep-module design vocabulary. |
-| [afk-design-grill](https://github.com/logbookfordevs/ai-field-kit-catalog/tree/main/skills/afk-design-grill) | Frontend work lacks an approved design. | Visible alternatives and a recorded visual commitment: selected references, what must survive, and what may adapt. |
-| [afk-to-spec](https://github.com/logbookfordevs/ai-field-kit-catalog/tree/main/skills/afk-to-spec) | The conversation has enough decisions to capture. | A local spec with behavior, decisions, testing, and scope; tracker publication when requested or expected by the project. |
-| [afk-to-tickets](https://github.com/logbookfordevs/ai-field-kit-catalog/tree/main/skills/afk-to-tickets) | Agreed work needs independently verifiable slices. | An approved breakdown with blockers, acceptance, and test seams, then local tickets or agreed tracker issues. |
-| [afk-implement](https://github.com/logbookfordevs/ai-field-kit-catalog/tree/main/skills/afk-implement) | Implementation needs durable progress and recovery across sessions. | An Implementation Record with status, validation evidence, review findings, and a user acceptance gate. |
-| [afk-code-review](https://github.com/logbookfordevs/ai-field-kit-catalog/tree/main/skills/afk-code-review) | A branch, commit, PR, or working tree needs review. | Separate Standards and Spec findings from independent review contexts. |
-| [afk-code-review-verdicts](https://github.com/logbookfordevs/ai-field-kit-catalog/tree/main/skills/afk-code-review-verdicts) | You want review findings checked before fixes. | The full review plus evidence-backed verdicts; code changes wait for discussion. |
-| [afk-static-review](https://github.com/logbookfordevs/ai-field-kit-catalog/tree/main/skills/afk-static-review) | You need lint and typecheck findings assessed for a change. | Scoped findings, including warnings, with new and pre-existing issues distinguished; no automatic fixes. |
-| [afk-animated-driven-frontend](https://github.com/logbookfordevs/ai-field-kit-catalog/tree/main/skills/afk-animated-driven-frontend) | Motion and cinematic direction define the experience. | Co-directed production with visible cuts, explicit greenlights, and a durable production binder. |
-| [afk-architect](https://github.com/logbookfordevs/ai-field-kit-catalog/tree/main/skills/afk-architect) | Substantive work benefits from separate contexts or parallel ownership. | Focused teammate assignments and integrated results while the lead agent stays available. |
-| [afk-ask](https://github.com/logbookfordevs/ai-field-kit-catalog/tree/main/skills/afk-ask) | You want a second opinion from another local AI CLI. | A saved prompt, provider response, and assessment for reuse. |
-| [afk-create-agent](https://github.com/logbookfordevs/ai-field-kit-catalog/tree/main/skills/afk-create-agent) | You need a reusable Custom Agent role. | A portable definition, catalog registration, and adapter dry-runs; provisioning only when requested. |
-| [afk-profile-use](https://github.com/logbookfordevs/ai-field-kit-catalog/tree/main/skills/afk-profile-use) | A named skill working set fits the task. | The profile's relevant instructions loaded through AFK commands. |
-| [writing-for-humans](https://github.com/logbookfordevs/ai-field-kit-catalog/tree/main/skills/writing-for-humans) | Documentation, explanations, or other substantial prose needs writing or revision. | Prose organized around the reader's job, with supported claims and the author's voice preserved. |
+| [afk-cli](https://github.com/logbookfordevs/logbook-atlas/tree/main/skills/afk-cli) | You want your agent to manage AFK setup, catalogs, or profiles. | Guided setup, catalog, skill, profile, and maintenance workflows, with applied changes checked afterward. Invoke manually, for example: “Use afk-cli to create a project skill profile.” |
+| [afk-compass](https://github.com/logbookfordevs/logbook-atlas/tree/main/skills/afk-compass) | You know the task but are unsure which skill fits. | A recommended route, reason, and invocation. |
+| [afk-code-grill](https://github.com/logbookfordevs/logbook-atlas/tree/main/skills/afk-code-grill) | Technical decisions need pressure before coding. | A focused grilling session using Truss trade-offs and deep-module design vocabulary. |
+| [afk-design-grill](https://github.com/logbookfordevs/logbook-atlas/tree/main/skills/afk-design-grill) | Frontend work lacks an approved design. | Visible alternatives and a recorded visual commitment: selected references, what must survive, and what may adapt. |
+| [afk-to-spec](https://github.com/logbookfordevs/logbook-atlas/tree/main/skills/afk-to-spec) | The conversation has enough decisions to capture. | A local spec with behavior, decisions, testing, and scope; tracker publication when requested or expected by the project. |
+| [afk-to-tickets](https://github.com/logbookfordevs/logbook-atlas/tree/main/skills/afk-to-tickets) | Agreed work needs independently verifiable slices. | An approved breakdown with blockers, acceptance, and test seams, then local tickets or agreed tracker issues. |
+| [afk-implement](https://github.com/logbookfordevs/logbook-atlas/tree/main/skills/afk-implement) | Implementation needs durable progress and recovery across sessions. | An Implementation Record with status, validation evidence, review findings, and a user acceptance gate. |
+| [afk-code-review](https://github.com/logbookfordevs/logbook-atlas/tree/main/skills/afk-code-review) | A branch, commit, PR, or working tree needs review. | Separate Standards and Spec findings from independent review contexts. |
+| [afk-code-review-verdicts](https://github.com/logbookfordevs/logbook-atlas/tree/main/skills/afk-code-review-verdicts) | You want review findings checked before fixes. | The full review plus evidence-backed verdicts; code changes wait for discussion. |
+| [afk-static-review](https://github.com/logbookfordevs/logbook-atlas/tree/main/skills/afk-static-review) | You need lint and typecheck findings assessed for a change. | Scoped findings, including warnings, with new and pre-existing issues distinguished; no automatic fixes. |
+| [afk-animated-driven-frontend](https://github.com/logbookfordevs/logbook-atlas/tree/main/skills/afk-animated-driven-frontend) | Motion and cinematic direction define the experience. | Co-directed production with visible cuts, explicit greenlights, and a durable production binder. |
+| [afk-architect](https://github.com/logbookfordevs/logbook-atlas/tree/main/skills/afk-architect) | Substantive work benefits from separate contexts or parallel ownership. | Focused teammate assignments and integrated results while the lead agent stays available. |
+| [afk-ask](https://github.com/logbookfordevs/logbook-atlas/tree/main/skills/afk-ask) | You want a second opinion from another local AI CLI. | A saved prompt, provider response, and assessment for reuse. |
+| [afk-create-agent](https://github.com/logbookfordevs/logbook-atlas/tree/main/skills/afk-create-agent) | You need a reusable Custom Agent role. | A portable definition, catalog registration, and adapter dry-runs; provisioning only when requested. |
+| [afk-profile-use](https://github.com/logbookfordevs/logbook-atlas/tree/main/skills/afk-profile-use) | A named skill working set fits the task. | The profile's relevant instructions loaded through AFK commands. |
+| [writing-for-humans](https://github.com/logbookfordevs/logbook-atlas/tree/main/skills/writing-for-humans) | Documentation, explanations, or other substantial prose needs writing or revision. | Prose organized around the reader's job, with supported claims and the author's voice preserved. |
 
-The source tree also contains [afk-structured-debugging](https://github.com/logbookfordevs/ai-field-kit-catalog/tree/main/skills/afk-structured-debugging), a root-cause investigation process. It is not currently an entry in the bundled skills catalog; that catalog selects `diagnosing-bugs`. A skill being present in the repository does not mean setup selects it.
+The source tree also contains [afk-structured-debugging](https://github.com/logbookfordevs/logbook-atlas/tree/main/skills/afk-structured-debugging), a root-cause investigation process. It is not currently an entry in the bundled skills catalog; that catalog selects `diagnosing-bugs`. A skill being present in the repository does not mean setup selects it.
 
 <h2 id="kit-community-skills">Community skills in the catalog</h2>
 
@@ -125,7 +125,7 @@ The [project acknowledgements](https://github.com/logbookfordevs/ai-field-kit#ac
 | Profiles | Working sets such as HTML, Stitch, Video, and Remotion; profiles can add packages beyond individual catalog entries. |
 | Presets | Selections across kit areas for setup and sync. |
 
-The [bundled manifests](https://github.com/logbookfordevs/ai-field-kit-catalog/tree/main/afk/catalog) are the source of truth for membership and defaults. Explore them without installing:
+The [bundled manifests](https://github.com/logbookfordevs/logbook-atlas/tree/main/afk/catalog) are the source of truth for membership and defaults. Explore them without installing:
 
 ```bash inspect the published AFK catalog
 afk show --source logbookfordevs/ai-field-kit

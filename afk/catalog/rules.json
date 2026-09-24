@@ -4,10 +4,10 @@
     {
       "id": "logbookfordevs-afk",
       "label": "AFK opinionated starter",
-      "source": "https://raw.githubusercontent.com/logbookfordevs/ai-field-kit-catalog/main/rules/AGENTS.md",
+      "source": "https://raw.githubusercontent.com/logbookfordevs/logbook-atlas/main/rules/AGENTS.md",
       "files": [
         {
-          "source": "https://raw.githubusercontent.com/logbookfordevs/ai-field-kit-catalog/main/rules/artifacts.md",
+          "source": "https://raw.githubusercontent.com/logbookfordevs/logbook-atlas/main/rules/artifacts.md",
           "destination": "artifacts.md"
         }
       ]

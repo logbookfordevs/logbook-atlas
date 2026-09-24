@@ -109,9 +109,9 @@ Follow the repository's artifact conventions. Decide explicitly when a remote tr
 
 <h2 id="workflows-maps">Explore the interactive maps</h2>
 
-- [Skill Composition Studio](https://tot.page/mhPWYwLnjw_yGzIs8FQOXg): explore primitives, wrappers, workflows, and their relationships. The [source artifact](https://github.com/logbookfordevs/ai-field-kit-catalog/blob/main/docs/skill-composition.html) is maintained in Atlas.
-- [ADF Cinematic Production Map](https://tot.page/BKxaG-aUkUFc5f180RsQ4Q): follow filmmaking concepts into frontend stages, artifacts, and approval gates. See its [source artifact](https://github.com/logbookfordevs/ai-field-kit-catalog/blob/main/docs/adf-cinematic-production-map.html).
-- [AFK skills and profiles switchyard](https://tot.page/13T7lSXk6SIhvGNt0aa_tw): explore how skill commands, profiles, catalog policy, storage, and recovery paths interact. See its [source artifact](https://github.com/logbookfordevs/ai-field-kit-catalog/blob/main/docs/afk-skills-profiles-state-machine.html).
+- [Skill Composition Studio](https://tot.page/mhPWYwLnjw_yGzIs8FQOXg): explore primitives, wrappers, workflows, and their relationships. The [source artifact](https://github.com/logbookfordevs/logbook-atlas/blob/main/docs/skill-composition.html) is maintained in Atlas.
+- [ADF Cinematic Production Map](https://tot.page/BKxaG-aUkUFc5f180RsQ4Q): follow filmmaking concepts into frontend stages, artifacts, and approval gates. See its [source artifact](https://github.com/logbookfordevs/logbook-atlas/blob/main/docs/adf-cinematic-production-map.html).
+- [AFK skills and profiles switchyard](https://tot.page/13T7lSXk6SIhvGNt0aa_tw): explore how skill commands, profiles, catalog policy, storage, and recovery paths interact. See its [source artifact](https://github.com/logbookfordevs/logbook-atlas/blob/main/docs/afk-skills-profiles-state-machine.html).
 
 The published maps are explanatory snapshots. For the composition in your current catalog, generate a fresh local view:
 

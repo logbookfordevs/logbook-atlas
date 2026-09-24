@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "logbook-atlas",
-  "homepage": "https://github.com/logbookfordevs/ai-field-kit-catalog",
+  "homepage": "https://github.com/logbookfordevs/logbook-atlas",
   "items": [
     {
       "name": "afk-catalog",

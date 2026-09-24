@@ -14,7 +14,7 @@ Atlas owns the curated catalog, including skills and other catalog assets such a
 
 New composed workflow identifiers use `logbook-*`: `logbook-investigate`, `logbook-decide`, `logbook-plan`, `logbook-design`, `logbook-implement`, `logbook-diagnose`, `logbook-review`, `logbook-verify`, `logbook-document-behavior`, `logbook-learn`, `logbook-clarify`, and `logbook-configure`. Human-facing capability names stay plain. Existing upstream names and legacy identifiers in the migration inventory remain unchanged as provenance; independent entries are not automatically renamed.
 
-Existing tool identities and executable names remain AFK / `afk`, Waypoint / `waypoint`, and Yggtree / `yggtree`. Publisher ownership does not require adding a prefix to those commands. Atlas replaces the earlier proposed repository names `ai-field-kit-catalog` and `logbook-skills`; the current repository name is `logbook-atlas`.
+Existing tool identities and executable names remain AFK / `afk`, Waypoint / `waypoint`, and Yggtree / `yggtree`. Publisher ownership does not require adding a prefix to those commands. The catalog repository is `logbook-atlas`.
 
 ## Direction
 
