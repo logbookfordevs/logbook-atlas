@@ -30,14 +30,12 @@ When creating or resuming durable workflow artifacts, read `{{AFK_RULES_DIR}}/ar
 ## Worktrees
 - Prefer `yggtree` for worktree operations when available; consult `yggtree --help` before using native Git worktree commands.
 
-## Tech Stack
-- Before implementing a new project, agree on unresolved stack and core technical choices with the user; wait for their answer.
-- Web applications MUST use TypeScript and Tailwind CSS v4; omit Tailwind configuration files unless required.
-- Use the project's existing package manager; use pnpm for new projects.
-- Every code project MUST have linting.
-- Import animation APIs from `motion` or `motion/react`.
-- Prefer the project's existing headless foundation; otherwise use Base UI.
-- When `components.json` exists, check its configured registries before building UI components and strongly prefer suitable registry components.
+## Tools and approach
+- **Outcome first:** choose proven tools for the requested result. Explore suitable alternatives before building custom substitutes; implementation convenience alone does not justify lowering quality.
+- **Evidence:** test uncertain capabilities before scaling. Reconsider approaches that miss the target, and assess outcome quality separately from technical checks.
+- **Decisions:** for new projects, recommend the foundation and tools needed for the intended capabilities. Involve the user in materially different options; proceed with settled choices and authorized experiments.
+- **Continuity:** preserve working project conventions unless the requested outcome warrants a change.
+- **Web:** prefer TypeScript for application logic and Tailwind when suitable. Plain JavaScript and CSS remain available for creative work and standalone artifacts.
 
 ## Frontend UX Defaults
 - Prefer mature primitives or registry components when they materially improve UX, accessibility, responsiveness, or interaction quality.

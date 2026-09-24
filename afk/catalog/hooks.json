@@ -7,17 +7,9 @@
       "description": "Run the inferred repo typecheck before final handoff when TypeScript files changed.",
       "source": "https://raw.githubusercontent.com/logbookfordevs/ai-field-kit-catalog/main/hooks/afk-typescript-typecheck-stop-check.js",
       "command": "node",
-      "args": [
-        "${HOOK_FILE}"
-      ],
-      "events": [
-        "stop"
-      ],
-      "agents": [
-        "codex",
-        "claude",
-        "cursor-local"
-      ],
+      "args": ["${HOOK_FILE}"],
+      "events": ["stop"],
+      "agents": ["codex", "claude", "cursor-local"],
       "default": true
     }
   ]

@@ -1,8 +1,8 @@
-# AI Field Kit Catalog
+# Logbook Atlas
 
 The opinionated, maintained collection distributed by [AI Field Kit](https://github.com/logbookfordevs/ai-field-kit).
 
-This repository is an additive preview of the collection as an independent release unit. The original AI Field Kit repository remains the active compatibility source until a later migration decision.
+Atlas owns the default catalog and its content. AFK owns the CLI, installation, catalog schema support, and harness adapters. Existing skill names and behavior are preserved; the proposed next-generation workflows remain separate design work.
 
 ## Contents
 
@@ -12,7 +12,7 @@ This repository is an additive preview of the collection as an independent relea
 - `hooks/` — deterministic agent hooks
 - `agents/` — portable custom-agent definitions
 
-## Try the separated source
+## Use the catalog
 
 Preview the catalog without changing your saved defaults:
 
@@ -37,5 +37,13 @@ pnpm check
 
 ## Compatibility status
 
-This repository does not replace `logbookfordevs/ai-field-kit` yet. Existing AFK defaults, installations, lock metadata, and documentation continue to use the original source. The two repositories can coexist while the extraction is evaluated.
+The updated AFK CLI defaults to Atlas and migrates legacy AFK catalog references while preserving custom sources. Publish Atlas before releasing the CLI update. Older CLI versions can select Atlas with `afk refresh --default-source logbookfordevs/ai-field-kit-catalog`. Local checkout changes alone do not distribute this migration.
 
+
+## Catalog documentation
+
+- [Catalog guide](docs/catalog-guide.md)
+- [Composition map](afk-skills.html)
+- [Workflow switchyard](docs/afk-skills-profiles-state-machine.html)
+- [Legacy skills](legacy/)
+- [Project-local registry](registry.json)
