@@ -46,7 +46,7 @@ assert.equal(routeIds.size, plain.COMPASS_ROUTES.length, 'Duplicate Compass rout
 for (const route of plain.COMPASS_ROUTES) {
   assert.ok(['workflow', 'frontend', 'motion', 'context'].includes(route.group), `Unknown crossroads group: ${route.group}`);
   for (const id of route.related) assert.ok(routeIds.has(id), `Unknown related route: ${id}`);
-  await readFile(new URL(`skills/afk-compass/references/${route.source}`, root), 'utf8');
+  await readFile(new URL(`legacy/afk-compass/references/${route.source}`, root), 'utf8');
 }
 if (process.argv.includes('--write')) await writeFile(target, html);
 console.log(`Switchyard verified: ${skills.length} skills, ${profiles.items.length} profiles, complete workflow coverage, ${routeIds.size} Compass branches, valid graph routes.`);

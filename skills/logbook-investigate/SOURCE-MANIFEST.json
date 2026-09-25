@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "workflow": "logbook-investigate",
+  "generated": true,
+  "authoredInputs": [
+    "workflows/logbook-investigate/entry.md",
+    "workflows/logbook-investigate/openai.yaml"
+  ],
+  "dependencies": [
+    {
+      "id": "domain-modeling",
+      "relationship": "behavioral",
+      "required": false,
+      "condition": "The requested investigation includes sharpening the project domain model."
+    },
+    {
+      "id": "truss-evaluation",
+      "relationship": "behavioral",
+      "required": false,
+      "condition": "A consequential software-quality trade-off needs evaluation."
+    }
+  ],
+  "sources": [
+    {
+      "id": "research",
+      "owner": "Investigate",
+      "classification": "patched",
+      "upstream": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+        "path": "skills/engineering/research/SKILL.md",
+        "licensePath": "LICENSE"
+      },
+      "sourceSha256": "985569f15739c713d6784887c3d186d4ef9ac85bec5ad9c068d25bf0739928e4",
+      "carriedPath": "references/research.md",
+      "carriedSha256": "8692813cf02b96b8d3468ecf2aeb54c39cbec2288e07194105f81716143b86b9",
+      "licensePath": "licenses/research.txt",
+      "licenseSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "adaptation": "Preserves primary-source research. Removes the upstream skill entry metadata, replaces unconditional delegation with authorized useful delegation and no nested researchers, makes durable output conditional, adds a concrete fallback location and evidence/conflict handling.",
+      "patch": "sources/patches/research.patch",
+      "patchSha256": "d6bbc6cc25466105771809f9c153cadf7ab2f34ecf11a6d2be8dcc5a13fd134f"
+    },
+    {
+      "id": "source-verification",
+      "owner": "Implement",
+      "classification": "derived",
+      "upstream": {
+        "repository": "https://github.com/addyosmani/agent-skills",
+        "commit": "bcab6a1b8503100e8618c3b4e32cc78de43de769",
+        "path": "skills/source-driven-development/SKILL.md",
+        "licensePath": "LICENSE"
+      },
+      "sourceSha256": "c59faf851377f0eeda45306398d16eb96d77ab1c2fd3e1a7fb58e9a0af33c1e9",
+      "carriedPath": "references/source-verification.md",
+      "carriedSha256": "8d4c1133efc8cfa3aadf8c579dfe7e8ec3797c3a0328d635f2d2a5c4ae2f9df9",
+      "licensePath": "licenses/source-verification.txt",
+      "licenseSha256": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7",
+      "adaptation": "Extracts version-aware primary-source verification into a bounded non-entry method. Omits implementation, blanket per-decision browsing, mandatory version questions and code-comment citations, persona/security dependencies and checklists. Shared source exists now; Implement itself is not implemented."
+    },
+    {
+      "id": "adversarial-challenge",
+      "owner": "Decide",
+      "classification": "derived",
+      "upstream": {
+        "repository": "https://github.com/addyosmani/agent-skills",
+        "commit": "bcab6a1b8503100e8618c3b4e32cc78de43de769",
+        "path": "skills/doubt-driven-development/SKILL.md",
+        "licensePath": "LICENSE"
+      },
+      "sourceSha256": "6fa1fcd8420c28daf7e53c5b08b0f20b907911efd2a6d9bce0b9740da20a4008",
+      "carriedPath": "references/adversarial-challenge.md",
+      "carriedSha256": "4b7dbd8f25a9bb4f4dedce24ad90eb5a9076e6bfa434f1123ab3a8c312d21f13",
+      "licensePath": "licenses/adversarial-challenge.txt",
+      "licenseSha256": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7",
+      "adaptation": "Extracts artifact-and-contract challenge, evidence-based reconciliation, honest fresh-context labeling and a three-cycle bound. Removes universal activation, mandatory cross-model offers, host-specific personas and repeated approval rituals. This is not the full continuous posture. Shared source exists now; Decide itself is not implemented."
+    }
+  ],
+  "files": {
+    "SKILL.md": "1c536643fc6bb90425bb6a55663e687e951b12cf408f17cf4ce46d32d5d6d795",
+    "agents/openai.yaml": "27c3f0b4104b7aac6714c3725d5b8bce40f95b5564ffd2b78713058329a73026",
+    "references/research.md": "8692813cf02b96b8d3468ecf2aeb54c39cbec2288e07194105f81716143b86b9",
+    "licenses/research.txt": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+    "references/source-verification.md": "8d4c1133efc8cfa3aadf8c579dfe7e8ec3797c3a0328d635f2d2a5c4ae2f9df9",
+    "licenses/source-verification.txt": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7",
+    "references/adversarial-challenge.md": "4b7dbd8f25a9bb4f4dedce24ad90eb5a9076e6bfa434f1123ab3a8c312d21f13",
+    "licenses/adversarial-challenge.txt": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7"
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "baseCommit": "5bea28cf9fe8fa163b572cc2179db8185c46bded",
+  "files": [
+    {
+      "from": "skills/afk-animated-driven-frontend/SKILL.md",
+      "to": "legacy/afk-animated-driven-frontend/SKILL.md",
+      "sha256": "ac8038a059c992ce6e3db92672b4a4c9dfb9d8c38176e57da3ec7eef0e38b838"
+    },
+    {
+      "from": "skills/afk-animated-driven-frontend/agents/openai.yaml",
+      "to": "legacy/afk-animated-driven-frontend/agents/openai.yaml",
+      "sha256": "12a4d0f4b1d3f32f135b9eb9cebde143d639789a5fe4dfdc43a19f336af91c6d"
+    },
+    {
+      "from": "skills/afk-animated-driven-frontend/references/CINEMATIC-DIRECTION.md",
+      "to": "legacy/afk-animated-driven-frontend/references/CINEMATIC-DIRECTION.md",
+      "sha256": "60fca6b085882ed6286bc637ffa761486afe6c481a66e556392498fc4681eb08"
+    },
+    {
+      "from": "skills/afk-animated-driven-frontend/references/DIALS.md",
+      "to": "legacy/afk-animated-driven-frontend/references/DIALS.md",
+      "sha256": "e0e4783debd73ff703344535903d10cdd9c468d1975e13eac32990cbf1a7b04a"
+    },
+    {
+      "from": "skills/afk-animated-driven-frontend/references/GUARDRAILS.md",
+      "to": "legacy/afk-animated-driven-frontend/references/GUARDRAILS.md",
+      "sha256": "f140ad8b29f936d3a40c435775bd98f10dcb696cbab5e4f9c4e88542af08a844"
+    },
+    {
+      "from": "skills/afk-animated-driven-frontend/references/IMMERSIVE-PIPELINE.md",
+      "to": "legacy/afk-animated-driven-frontend/references/IMMERSIVE-PIPELINE.md",
+      "sha256": "2f262d780ce028fc6668c9b4f734f70938c9a595406c7cc8c799a0f57222544e"
+    },
+    {
+      "from": "skills/afk-animated-driven-frontend/references/MODES.md",
+      "to": "legacy/afk-animated-driven-frontend/references/MODES.md",
+      "sha256": "b7ea586e661c7c254acafb5277a31b1c1a75cb5921fd2ed1efdb08958428b95b"
+    },
+    {
+      "from": "skills/afk-animated-driven-frontend/references/NARRATIVE-SYSTEMS.md",
+      "to": "legacy/afk-animated-driven-frontend/references/NARRATIVE-SYSTEMS.md",
+      "sha256": "b9bb99c6f28793f1001790f66cbad9768efa33da97c750d8a09cb47a2a15b2c1"
+    },
+    {
+      "from": "skills/afk-animated-driven-frontend/references/PATTERNS.md",
+      "to": "legacy/afk-animated-driven-frontend/references/PATTERNS.md",
+      "sha256": "f999eb6d96b877a441141ff7cc953c1c6d9de7dacba87c2fab8eaa5b9d9f94dd"
+    },
+    {
+      "from": "skills/afk-animated-driven-frontend/references/PRODUCTION-MEDIA.md",
+      "to": "legacy/afk-animated-driven-frontend/references/PRODUCTION-MEDIA.md",
+      "sha256": "fe46a80be126487b6e1b899aa704ff77ab36f8490eb61027193e9629b6cf64ea"
+    },
+    {
+      "from": "skills/afk-animated-driven-frontend/references/STACK-PREFERENCES.md",
+      "to": "legacy/afk-animated-driven-frontend/references/STACK-PREFERENCES.md",
+      "sha256": "943cc79ece4c62fe8dc9f1c302f555e461467e9b427462f5a2921dadb53ee5a2"
+    },
+    {
+      "from": "skills/afk-animated-driven-frontend/references/TEMPLATES.md",
+      "to": "legacy/afk-animated-driven-frontend/references/TEMPLATES.md",
+      "sha256": "aaed15a178d3c352c487e2905b21d238a076d6af307cf00a174f43b06b5e1d2f"
+    },
+    {
+      "from": "skills/afk-animated-driven-frontend/references/WORKPRINT.md",
+      "to": "legacy/afk-animated-driven-frontend/references/WORKPRINT.md",
+      "sha256": "9e2ae455d385ed7dd933a86a94469b021083b6ecb12c104e0c83ae3a203248ec"
+    },
+    {
+      "from": "skills/afk-architect/SKILL.md",
+      "to": "legacy/afk-architect/SKILL.md",
+      "sha256": "8df91af6d82112e8b65db67b4e37a7c7776a65734f775dcb642cc5b6658b57ce"
+    },
+    {
+      "from": "skills/afk-architect/agents/openai.yaml",
+      "to": "legacy/afk-architect/agents/openai.yaml",
+      "sha256": "c0493f2b7340a708e5b730057bf9676b974d94570d7695903df78ce0d8387f81"
+    },
+    {
+      "from": "skills/afk-architect/crew.md",
+      "to": "legacy/afk-architect/crew.md",
+      "sha256": "cc30721653ce104c5c665d145b9f6d3055972a2d7c0578e0b5c8519e41bfb499"
+    },
+    {
+      "from": "skills/afk-ask/SKILL.md",
+      "to": "legacy/afk-ask/SKILL.md",
+      "sha256": "98f68c1786aae72d48e749f2f4fe229be6117daf07c8558cc27655f7a8896b12"
+    },
+    {
+      "from": "skills/afk-ask/agents/openai.yaml",
+      "to": "legacy/afk-ask/agents/openai.yaml",
+      "sha256": "f3c7c53e2a7dcd33cbf8a040d327c8dc201c797a8d883e2fa33919dbcaede484"
+    },
+    {
+      "from": "skills/afk-ask/references/providers.md",
+      "to": "legacy/afk-ask/references/providers.md",
+      "sha256": "ad469a0d214713371e0c37bee8e5709f79216b8096152559591e07d2cee38770"
+    },
+    {
+      "from": "skills/afk-cli/SKILL.md",
+      "to": "legacy/afk-cli/SKILL.md",
+      "sha256": "8ab60b96c890ccf4e516f1ca6561625a648a38adcd2e46be9bb5f6b7627c774a"
+    },
+    {
+      "from": "skills/afk-cli/agents/openai.yaml",
+      "to": "legacy/afk-cli/agents/openai.yaml",
+      "sha256": "bf9d20605de506733e2c311ffae5a24942cdccfbd75543a218887f652ee0fe7f"
+    },
+    {
+      "from": "skills/afk-cli/references/catalogs.md",
+      "to": "legacy/afk-cli/references/catalogs.md",
+      "sha256": "a8349be544eb4f79ab03a703ccc347cbe2d8dcf372c560e94112b4b24b5f71c6"
+    },
+    {
+      "from": "skills/afk-cli/references/maintenance.md",
+      "to": "legacy/afk-cli/references/maintenance.md",
+      "sha256": "94353bde2a1be3b1996c1aa4f520f333593960e3da547c4095d3f91ccf35d6d9"
+    },
+    {
+      "from": "skills/afk-cli/references/profiles.md",
+      "to": "legacy/afk-cli/references/profiles.md",
+      "sha256": "611a795e5b1d74c4e91310ef0372342fcd7c947fc4ba59aa13cf4f5925083a42"
+    },
+    {
+      "from": "skills/afk-cli/references/setup.md",
+      "to": "legacy/afk-cli/references/setup.md",
+      "sha256": "738322921b36dd3d8683a8e55496b8d529fd5dbd8b112e9c55bbe7cd5bfe87c6"
+    },
+    {
+      "from": "skills/afk-cli/references/skills.md",
+      "to": "legacy/afk-cli/references/skills.md",
+      "sha256": "5a32b77135e6d20200fa839387923933d08e891011d35ded09dbf7871094c105"
+    },
+    {
+      "from": "skills/afk-code-grill/SKILL.md",
+      "to": "legacy/afk-code-grill/SKILL.md",
+      "sha256": "56181016d593d2e20c4b3d56879326b219a8aca312e53183559931cf2e5823ac"
+    },
+    {
+      "from": "skills/afk-code-grill/agents/openai.yaml",
+      "to": "legacy/afk-code-grill/agents/openai.yaml",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94"
+    },
+    {
+      "from": "skills/afk-code-review/SKILL.md",
+      "to": "legacy/afk-code-review/SKILL.md",
+      "sha256": "9dd3a3d9fb56efaf1aa280e7ba2150c081045d698f94f9950bdb1195ca6a9500"
+    },
+    {
+      "from": "skills/afk-code-review/agents/openai.yaml",
+      "to": "legacy/afk-code-review/agents/openai.yaml",
+      "sha256": "960be013901e0d513b6b06e05409a91fcd081a02f8364e8aeda250123a789b2e"
+    },
+    {
+      "from": "skills/afk-code-review-verdicts/SKILL.md",
+      "to": "legacy/afk-code-review-verdicts/SKILL.md",
+      "sha256": "193c87d4d34cdd659419591d376699d991552b7e01572c79fa89e1576247ac9c"
+    },
+    {
+      "from": "skills/afk-code-review-verdicts/agents/openai.yaml",
+      "to": "legacy/afk-code-review-verdicts/agents/openai.yaml",
+      "sha256": "a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94"
+    },
+    {
+      "from": "skills/afk-compass/SKILL.md",
+      "to": "legacy/afk-compass/SKILL.md",
+      "sha256": "bbcf769f571b5a7374163c1d38092ad484bbacac4a84804f2da7d8cdcc29078b"
+    },
+    {
+      "from": "skills/afk-compass/agents/openai.yaml",
+      "to": "legacy/afk-compass/agents/openai.yaml",
+      "sha256": "e0de3b150ca762e9c12cbfc5800b0fac511ab9de52d26872952e8c8f916d48b2"
+    },
+    {
+      "from": "skills/afk-compass/references/frontend-crossroads.md",
+      "to": "legacy/afk-compass/references/frontend-crossroads.md",
+      "sha256": "1d9abe5da54bcea2eb83acf4e7781d9e559b9b379054e58a892947cd269e8948"
+    },
+    {
+      "from": "skills/afk-compass/references/workflow-crossroads.md",
+      "to": "legacy/afk-compass/references/workflow-crossroads.md",
+      "sha256": "e5f0020fab2adb61a236dff63d0a999e986141c8d2126ce998b032c6939211f2"
+    },
+    {
+      "from": "skills/afk-create-agent/SKILL.md",
+      "to": "legacy/afk-create-agent/SKILL.md",
+      "sha256": "4a39510080273c068ab9ba9f4d239dd11f46bb53ef2339f6b3b07abdd9dcb862"
+    },
+    {
+      "from": "skills/afk-create-agent/agents/openai.yaml",
+      "to": "legacy/afk-create-agent/agents/openai.yaml",
+      "sha256": "8542b453c5a451c9e42fdc8c9226a09f68bce8393e739ee092f9f39f9480ecdd"
+    },
+    {
+      "from": "skills/afk-create-agent/references/portable-agent-schema.md",
+      "to": "legacy/afk-create-agent/references/portable-agent-schema.md",
+      "sha256": "884d8a423f569e37c612b83f6f72b5f4533e1ccf49c4e85cbf356bf02fee4052"
+    },
+    {
+      "from": "skills/afk-design-grill/SKILL.md",
+      "to": "legacy/afk-design-grill/SKILL.md",
+      "sha256": "7097c360293c10f3373b6c1d78a386b5710e272422943c9d751e962e241646e1"
+    },
+    {
+      "from": "skills/afk-design-grill/agents/openai.yaml",
+      "to": "legacy/afk-design-grill/agents/openai.yaml",
+      "sha256": "799db88d0ed23b44f3edc769a0eddd8a3dd66eddb92364857033b250d28a3e9a"
+    },
+    {
+      "from": "skills/afk-implement/SKILL.md",
+      "to": "legacy/afk-implement/SKILL.md",
+      "sha256": "76fff92784e01a02e60e5f9a720eb0c82706b8a924724dec10fe77ff98499813"
+    },
+    {
+      "from": "skills/afk-implement/agents/openai.yaml",
+      "to": "legacy/afk-implement/agents/openai.yaml",
+      "sha256": "8fe9c0bf06f029eefedd0a36018619599c5a969dee5e6f679ef4d38ff9deb921"
+    },
+    {
+      "from": "skills/afk-implement/references/notes-and-decisions.md",
+      "to": "legacy/afk-implement/references/notes-and-decisions.md",
+      "sha256": "33796c96b2c1cbf98b019a3a8d4a7aedc781ab76d3598a62ec842e128586102a"
+    },
+    {
+      "from": "skills/afk-implement/references/resume.md",
+      "to": "legacy/afk-implement/references/resume.md",
+      "sha256": "7f54111416f0597889a2c69fa154d26d410862fc7628b91a5c46045ff8150a02"
+    },
+    {
+      "from": "skills/afk-implement/references/review-guides.md",
+      "to": "legacy/afk-implement/references/review-guides.md",
+      "sha256": "cd6fe084bc97924163dcecc670c17fea5bb08a4704aa63c6519e39f54da1909f"
+    },
+    {
+      "from": "skills/afk-profile-use/SKILL.md",
+      "to": "legacy/afk-profile-use/SKILL.md",
+      "sha256": "d1539b6dc3c095f36e99ef66f7e9f29e8b435ef2f99d54312d11445c88c63995"
+    },
+    {
+      "from": "skills/afk-profile-use/agents/openai.yaml",
+      "to": "legacy/afk-profile-use/agents/openai.yaml",
+      "sha256": "5d9d80f0b997b7ab8554c977ae9301a7d5d16b5c17d5798fd85bd92fd0b1ff4d"
+    },
+    {
+      "from": "skills/afk-static-review/SKILL.md",
+      "to": "legacy/afk-static-review/SKILL.md",
+      "sha256": "a79187e1a2b637d295329b5309f1c9e15aabe217d0816181d5e489a9b7ca5aa9"
+    },
+    {
+      "from": "skills/afk-static-review/agents/openai.yaml",
+      "to": "legacy/afk-static-review/agents/openai.yaml",
+      "sha256": "7708f6ec75be532d162f4dbe0e1c3396762d70b6bc25020a53aaab454c4e6106"
+    },
+    {
+      "from": "skills/afk-static-review/scripts/changed-files.sh",
+      "to": "legacy/afk-static-review/scripts/changed-files.sh",
+      "sha256": "46308cbf23f2719738288fea02a617a8d07a1b7a5df48855e2325b72e17081c7"
+    },
+    {
+      "from": "skills/afk-structured-debugging/SKILL.md",
+      "to": "legacy/afk-structured-debugging/SKILL.md",
+      "sha256": "0716dcb32220a2c3bca5486a0b3504b45ff2691789d7478b250274ac5bdff376"
+    },
+    {
+      "from": "skills/afk-structured-debugging/references/debugging-guardrails.md",
+      "to": "legacy/afk-structured-debugging/references/debugging-guardrails.md",
+      "sha256": "8f859f89f711f88898d4aa0781b48a5290a87f42309c4898ddd38f550882a651"
+    },
+    {
+      "from": "skills/afk-structured-debugging/references/error-patterns.md",
+      "to": "legacy/afk-structured-debugging/references/error-patterns.md",
+      "sha256": "bb6755585f1406a96c589f2f2aecae541cf450587623b75054627311c2e23033"
+    },
+    {
+      "from": "skills/afk-to-spec/SKILL.md",
+      "to": "legacy/afk-to-spec/SKILL.md",
+      "sha256": "0aeb677b1eae3f5081c42109b348faa14e9b30a8af57ca2e0e14a2d16ee313c1"
+    },
+    {
+      "from": "skills/afk-to-spec/agents/openai.yaml",
+      "to": "legacy/afk-to-spec/agents/openai.yaml",
+      "sha256": "aad45b06518c205226a2ee30df11fcc94c0f7f07cb706c99a1311cd7fa6732a2"
+    },
+    {
+      "from": "skills/afk-to-tickets/SKILL.md",
+      "to": "legacy/afk-to-tickets/SKILL.md",
+      "sha256": "09f7f70de1e58e9abe58049fa87ef86982b94533bb5da7dd2b02e3f732fb5233"
+    },
+    {
+      "from": "skills/afk-to-tickets/agents/openai.yaml",
+      "to": "legacy/afk-to-tickets/agents/openai.yaml",
+      "sha256": "42ece30ddbc9ec7016bbd5b78546329375ed8e6aade8ae01cba39ec6835f59b1"
+    },
+    {
+      "from": "skills/afk-to-tickets/references/ticket-templates.md",
+      "to": "legacy/afk-to-tickets/references/ticket-templates.md",
+      "sha256": "0e85802c6d3509a5cf5e94416b5262700e68636a6083bbb1edb3a7585ec8c113"
+    },
+    {
+      "from": "skills/writing-for-humans/SKILL.md",
+      "to": "legacy/writing-for-humans/SKILL.md",
+      "sha256": "41066d90b10dd246ff856a9d4cc6080bcdc112d4253bab808dc029bb3d8b1c95"
+    },
+    {
+      "from": "skills/writing-for-humans/agents/openai.yaml",
+      "to": "legacy/writing-for-humans/agents/openai.yaml",
+      "sha256": "0525ad3256714209332dbce79f4389e7ae87d17f3cb2307ba1c9f15d98fdd698"
+    },
+    {
+      "from": "skills/writing-for-humans/references/articles-and-newsletters.md",
+      "to": "legacy/writing-for-humans/references/articles-and-newsletters.md",
+      "sha256": "bdcc64970d5ad53a67e69706d4690296da953bb6831472a830472249732abd89"
+    },
+    {
+      "from": "skills/writing-for-humans/references/fresh-reader-pass.md",
+      "to": "legacy/writing-for-humans/references/fresh-reader-pass.md",
+      "sha256": "1a47ba17c94310d25fe676108b583cd6d3e4c47fc5ebc6370897e90ccf852239"
+    },
+    {
+      "from": "skills/writing-for-humans/references/pr-descriptions.md",
+      "to": "legacy/writing-for-humans/references/pr-descriptions.md",
+      "sha256": "51e88709e4b217cfee1f404362c71e5c55c3b79147b7b5fe987012dc88a0561f"
+    },
+    {
+      "from": "skills/writing-for-humans/references/reader-progression.md",
+      "to": "legacy/writing-for-humans/references/reader-progression.md",
+      "sha256": "dd00107f404658e0048c2a7553ba02d21717faa2d50fff335dde010201e08df6"
+    },
+    {
+      "from": "skills/writing-for-humans/references/visual-explanations.md",
+      "to": "legacy/writing-for-humans/references/visual-explanations.md",
+      "sha256": "a5bdd3136e8467aea33b1f4890c3d535abebd4fb44b3141a43ab7e64eed6e8aa"
+    }
+  ]
+}

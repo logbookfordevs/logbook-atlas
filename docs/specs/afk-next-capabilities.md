@@ -8,7 +8,7 @@ Inventory: the current default-catalog manifest contains 52 entries: 33 manual a
 
 Formerly **AFK Next**. The formal brand is **Logbook for Devs**, the collection is **Atlas**, and its human-facing identity is **Logbook for Devs · Atlas**. `logbook` is the friendly artifact namespace, not a replacement for the formal brand.
 
-Develop the replacement catalog in the new **`logbook-atlas` repository**, rather than an experimental folder in this repository. Keep the current `skills/` and current catalog operational and intact until a separately reviewed cutover. Port relevant fixes during parallel development. This changes the planned development home; it does not mean content has already been moved or the new catalog implemented. The proposal and accompanying research now live in this Atlas repository under docs/specs and docs/research. Historical afk-next filenames are retained for continuity. Links to reviewed AFK source files identify the original repository, not newly implemented Atlas skills.
+Develop the replacement catalog in the new **`logbook-atlas` repository**, rather than an experimental folder in this repository. Keep the production `main` catalog operational until a separately reviewed cutover. On `feat/skills-v2`, the user authorized archiving current authored skills in `legacy/` and implementing one workflow at a time. Port relevant fixes during parallel development. The catalog extraction is complete. Skills V2 is being implemented on its review branch; only Investigate is implemented in the first slice. The proposal and accompanying research now live in this Atlas repository under docs/specs and docs/research. Historical afk-next filenames are retained for continuity. Links to reviewed AFK source files identify the original repository, not newly implemented Atlas skills.
 
 Atlas owns the curated catalog, including skills and other catalog assets such as rules, profiles, and agent definitions. AI Field Kit remains the general-purpose CLI, capable of using other catalogs; Atlas is its intended default catalog, not a requirement for using AFK. Atlas workflow packages remain installable through the standard skills CLI without requiring AFK.
 
@@ -111,6 +111,8 @@ This restores a broad happy-path proposal. It is not a mandatory fixed-stage pip
 ## What each workflow contains
 
 ### Investigate
+
+Implementation checkpoint (2026-09-25): [generated skill](../../skills/logbook-investigate/SKILL.md), [canonical entry](../../workflows/logbook-investigate/entry.md), [source maintenance](../authoring/source-composition.md), and [evaluation cases](../evals/investigate.md). This branch implements only Investigate; the following workflow designs remain proposals.
 
 Add an Atlas-owned investigation method: define the question and evidence standard, inventory relevant sources, distinguish disagreements from missing information, investigate the material gaps, and report the answer with its limits. Incorporate Research for primary-source gathering. Use independent Domain Modeling for terminology and Truss for consequential trade-offs. Reuse Implement’s source-verification method and Decide’s adversarial method when needed, without duplicating their source or starting their manual workflows.
 
@@ -419,6 +421,18 @@ Initial cross-workflow rulings proposed for this revision:
 
 Known conflicts must be decided during authoring. A genuinely new conflict may require judgment or user input, but the workflow should surface the unresolved case and feed a maintenance ruling rather than pretending existing policy covers it. No catalog ruling overrides the user's instructions or the host's instruction hierarchy.
 
+## Capability evidence before scaling an approach
+
+Accepted lesson for Design and Implement (2026-09-24): select an approach against the required outcome and demonstrate uncertain core capabilities before expanding production. A reviewed creative-work incident exposed premature commitment to a familiar renderer, later addition of libraries that improved surface appearance without solving character performance, and technical export checks presented alongside an unmet creative target. This motivates a shared method, not a prescribed library or a claim that custom rendering cannot succeed.
+
+- Design identifies observable acceptance criteria from the brief and supplied references, separating observed behavior from assumptions about how it was produced.
+- Design and Implement consider demonstrated approaches and suitable maintained tools before building custom substitutes. Familiarity, dependency count, or an unavailable curated-tool lookup does not establish suitability.
+- When success depends on an uncertain capability, prove the hardest representative behavior before scaling that approach. A polished easy example does not discharge this condition. Routine settled work needs no extra prototype ceremony.
+- When feedback exposes a capability mismatch, reopen the approach and test a material alternative; adding libraries or decorative polish is not itself evidence of improvement. Preserve applicable constraints and authorization boundaries.
+- Review and Verify distinguish evidence of the requested experience from technical integrity checks. Report what was actually observed and any unresolved quality gap.
+
+Maintain this guidance once and package it for relevant consumers. Exact placement and compact runtime wording belong to the next authoring pass; this note does not add an umbrella, change invocation policy, or claim the method is implemented. Evaluate it on representative tasks before expanding instruction detail.
+
 ## PE's contribution
 
 PE remains both architectural inspiration and a possible source. Use the existing [pinned source audit](../research/pe-skills-source-audit.md), rather than treating PE as a monolithic dependency.
@@ -455,7 +469,7 @@ Existing `afk-code-review`, `afk-to-spec`, and `afk-to-tickets` are already patc
 
 ## Packaging, provenance, and migration
 
-Keep the current canonical system and `skills/` intact while developing Atlas in the separate `logbook-atlas` repository. This replaces the earlier in-repository experimental-tree plan. Port relevant current fixes deliberately so the replacement does not drift. Proposed layout for each workflow: a short root, selected methods, relevant policy references, necessary scripts/assets, and a source manifest. Final directory names and publication exclusions remain implementation decisions.
+Keep production `main` intact while developing Skills V2 on `feat/skills-v2` in `logbook-atlas`; current authored skills on that branch are preserved byte-for-byte in `legacy/`. This replaces the earlier in-repository experimental-tree plan. Port relevant current fixes deliberately so the replacement does not drift. Proposed layout for each workflow: a short root, selected methods, relevant policy references, necessary scripts/assets, and a source manifest. Final directory names and publication exclusions remain implementation decisions.
 
 Record upstream repository and path, immutable commit, source checksum, carried-content checksum, classification (verbatim, patched, derived, or Atlas-authored), pristine source plus patch or derivation record, and license/notice information. Track each source in multi-source methods. Maintain dependency compatibility information separately for independent capabilities. Existing catalog `composes` supports dependency selection; it does not establish source lineage or prove runtime invocation.
 

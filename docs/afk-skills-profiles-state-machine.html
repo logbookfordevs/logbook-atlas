@@ -677,6 +677,23 @@ const CATALOG_SNAPSHOT = {
   "reviewedAt": "2026-09-15",
   "skills": [
     {
+      "id": "logbook-investigate",
+      "label": "Investigate (Skills V2 preview)",
+      "source": "https://github.com/logbookfordevs/logbook-atlas/tree/feat/skills-v2",
+      "args": [
+        "--skill",
+        "logbook-investigate",
+        "--global"
+      ],
+      "default": false,
+      "invocation": "auto",
+      "role": "workflow",
+      "composes": [
+        "domain-modeling",
+        "truss-evaluation"
+      ]
+    },
+    {
       "id": "afk-cli",
       "label": "AFK - CLI",
       "source": "https://github.com/logbookfordevs/logbook-atlas",
@@ -820,6 +837,20 @@ const CATALOG_SNAPSHOT = {
       "default": true,
       "invocation": "manual",
       "role": "wrapper",
+      "composes": []
+    },
+    {
+      "id": "stop-slop",
+      "label": "Stop Slop",
+      "source": "https://github.com/hardikpandya/stop-slop",
+      "args": [
+        "--skill",
+        "stop-slop",
+        "--global"
+      ],
+      "default": false,
+      "invocation": "manual",
+      "role": "utility",
       "composes": []
     },
     {
@@ -1224,6 +1255,20 @@ const CATALOG_SNAPSHOT = {
       "composes": []
     },
     {
+      "id": "hand-drawn-canvas-animation",
+      "label": "Hand Drawn Canvas Animation",
+      "source": "https://github.com/alesha-pro/tools",
+      "args": [
+        "--skill",
+        "hand-drawn-canvas-animation",
+        "--global"
+      ],
+      "default": false,
+      "invocation": "manual",
+      "role": "utility",
+      "composes": []
+    },
+    {
       "id": "writing-for-agents",
       "label": "Writing For Agents",
       "source": "https://github.com/mattpocock/skills",
@@ -1487,8 +1532,8 @@ const CATALOG_SNAPSHOT = {
         ]
       },
       {
-        "id": "video",
-        "name": "Video",
+        "id": "hyperframe",
+        "name": "Hyperframe",
         "catalogSkills": [],
         "packages": [
           {
@@ -1503,6 +1548,16 @@ const CATALOG_SNAPSHOT = {
         "packages": [
           {
             "source": "remotion-dev/skills"
+          }
+        ]
+      },
+      {
+        "id": "elevenlabs",
+        "name": "ElevenLabs",
+        "catalogSkills": [],
+        "packages": [
+          {
+            "source": "elevenlabs/skills"
           }
         ]
       }
@@ -1747,6 +1802,10 @@ const WORKFLOW_MOMENTS = [
         "use": "name the domain"
       },
       {
+        "id": "logbook-investigate",
+        "use": "resolve an evidence question (Skills V2 preview)"
+      },
+      {
         "id": "research",
         "use": "gather primary evidence"
       },
@@ -1877,6 +1936,10 @@ const WORKFLOW_MOMENTS = [
         "use": "shape fluid gesture interactions"
       },
       {
+        "id": "hand-drawn-canvas-animation",
+        "use": "create hand-drawn animation independently"
+      },
+      {
         "id": "animate-text",
         "use": "choose and implement text effects"
       },
@@ -1976,6 +2039,10 @@ const WORKFLOW_MOMENTS = [
       {
         "id": "afk-implement",
         "use": "record user acceptance before done"
+      },
+      {
+        "id": "stop-slop",
+        "use": "edit formulaic prose independently"
       },
       {
         "id": "writing-for-humans",

@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "research",
+      "owner": "Investigate",
+      "classification": "patched",
+      "upstream": {
+        "repository": "https://github.com/mattpocock/skills",
+        "commit": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+        "path": "skills/engineering/research/SKILL.md",
+        "licensePath": "LICENSE"
+      },
+      "snapshot": "sources/upstream/research/source.md",
+      "sourceSha256": "985569f15739c713d6784887c3d186d4ef9ac85bec5ad9c068d25bf0739928e4",
+      "license": "sources/upstream/research/LICENSE",
+      "licenseSha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "method": "sources/methods/research.md",
+      "adaptation": "Preserves primary-source research. Removes the upstream skill entry metadata, replaces unconditional delegation with authorized useful delegation and no nested researchers, makes durable output conditional, adds a concrete fallback location and evidence/conflict handling.",
+      "consumers": [
+        "logbook-investigate"
+      ],
+      "patch": "sources/patches/research.patch"
+    },
+    {
+      "id": "source-verification",
+      "owner": "Implement",
+      "classification": "derived",
+      "upstream": {
+        "repository": "https://github.com/addyosmani/agent-skills",
+        "commit": "bcab6a1b8503100e8618c3b4e32cc78de43de769",
+        "path": "skills/source-driven-development/SKILL.md",
+        "licensePath": "LICENSE"
+      },
+      "snapshot": "sources/upstream/source-verification/source.md",
+      "sourceSha256": "c59faf851377f0eeda45306398d16eb96d77ab1c2fd3e1a7fb58e9a0af33c1e9",
+      "license": "sources/upstream/source-verification/LICENSE",
+      "licenseSha256": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7",
+      "method": "sources/methods/source-verification.md",
+      "adaptation": "Extracts version-aware primary-source verification into a bounded non-entry method. Omits implementation, blanket per-decision browsing, mandatory version questions and code-comment citations, persona/security dependencies and checklists. Shared source exists now; Implement itself is not implemented.",
+      "consumers": [
+        "logbook-investigate"
+      ]
+    },
+    {
+      "id": "adversarial-challenge",
+      "owner": "Decide",
+      "classification": "derived",
+      "upstream": {
+        "repository": "https://github.com/addyosmani/agent-skills",
+        "commit": "bcab6a1b8503100e8618c3b4e32cc78de43de769",
+        "path": "skills/doubt-driven-development/SKILL.md",
+        "licensePath": "LICENSE"
+      },
+      "snapshot": "sources/upstream/adversarial-challenge/source.md",
+      "sourceSha256": "6fa1fcd8420c28daf7e53c5b08b0f20b907911efd2a6d9bce0b9740da20a4008",
+      "license": "sources/upstream/adversarial-challenge/LICENSE",
+      "licenseSha256": "6f202f8bd568cd730dbb2b0d1f8e243bc74c2fa1f64dbce9b2c7ea08bd5c9fd7",
+      "method": "sources/methods/adversarial-challenge.md",
+      "adaptation": "Extracts artifact-and-contract challenge, evidence-based reconciliation, honest fresh-context labeling and a three-cycle bound. Removes universal activation, mandatory cross-model offers, host-specific personas and repeated approval rituals. This is not the full continuous posture. Shared source exists now; Decide itself is not implemented.",
+      "consumers": [
+        "logbook-investigate"
+      ]
+    }
+  ],
+  "workflows": [
+    {
+      "id": "logbook-investigate",
+      "entry": "workflows/logbook-investigate/entry.md",
+      "agent": "workflows/logbook-investigate/openai.yaml",
+      "methods": [
+        "research",
+        "source-verification",
+        "adversarial-challenge"
+      ],
+      "dependencies": [
+        {
+          "id": "domain-modeling",
+          "relationship": "behavioral",
+          "required": false,
+          "condition": "The requested investigation includes sharpening the project domain model."
+        },
+        {
+          "id": "truss-evaluation",
+          "relationship": "behavioral",
+          "required": false,
+          "condition": "A consequential software-quality trade-off needs evaluation."
+        }
+      ]
+    }
+  ]
+}

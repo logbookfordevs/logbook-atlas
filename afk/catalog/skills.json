@@ -4,6 +4,23 @@
     "scopes": [],
     "items": [
         {
+            "id": "logbook-investigate",
+            "label": "Investigate (Skills V2 preview)",
+            "source": "https://github.com/logbookfordevs/logbook-atlas/tree/feat/skills-v2",
+            "args": [
+                "--skill",
+                "logbook-investigate",
+                "--global"
+            ],
+            "default": false,
+            "invocation": "auto",
+            "role": "workflow",
+            "composes": [
+                "domain-modeling",
+                "truss-evaluation"
+            ]
+        },
+        {
             "id": "afk-cli",
             "label": "AFK - CLI",
             "source": "https://github.com/logbookfordevs/logbook-atlas",

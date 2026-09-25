@@ -6,10 +6,23 @@ The opinionated, maintained collection distributed by [AI Field Kit](https://git
 
 Atlas owns the default catalog and its content. AFK owns the CLI, installation, catalog schema support, and harness adapters. Existing skill names and behavior are preserved; the proposed next-generation workflows remain separate design work.
 
+## Skills V2 preview
+
+`feat/skills-v2` is the review branch. The existing authored skills are archived under `legacy/`; production `main` is unchanged. The first new workflow is **Investigate**. Other workflows remain proposals.
+
+```bash
+npx skills add https://github.com/logbookfordevs/logbook-atlas/tree/feat/skills-v2 --skill logbook-investigate
+```
+
+- [Investigate entry](skills/logbook-investigate/SKILL.md)
+- [Proposal](docs/specs/afk-next-capabilities.md) · [HTML review artifact](docs/specs/show-me-afk-next-31.html)
+- [Source composition and maintenance](docs/authoring/source-composition.md)
+- [Evaluation cases](docs/evals/investigate.md)
+
 ## Contents
 
 - `afk/catalog/` — manifests consumed by the AFK CLI
-- `skills/` — authored skill packages
+- `skills/` — generated Skills V2 packages; previous authored packages are in `legacy/`
 - `rules/` — shared agent rules and supporting files
 - `hooks/` — deterministic agent hooks
 - `agents/` — portable custom-agent definitions

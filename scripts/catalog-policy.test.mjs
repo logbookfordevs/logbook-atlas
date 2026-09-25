@@ -5,9 +5,9 @@ const read = name => JSON.parse(readFileSync(new URL(`../afk/catalog/${name}.jso
 test("manual skill metadata and catalog invocation agree", () => {
   for (const id of ["afk-cli", "afk-compass", "writing-for-humans"]) {
     assert.equal(read("skills").items.find(item => item.id === id).invocation, "manual");
-    const skill = readFileSync(new URL(`../skills/${id}/SKILL.md`, import.meta.url), "utf8");
+    const skill = readFileSync(new URL(`../legacy/${id}/SKILL.md`, import.meta.url), "utf8");
     assert.match(skill.split("---")[1], /disable-model-invocation: true/);
-    assert.match(readFileSync(new URL(`../skills/${id}/agents/openai.yaml`, import.meta.url), "utf8"), /allow_implicit_invocation: false/);
+    assert.match(readFileSync(new URL(`../legacy/${id}/agents/openai.yaml`, import.meta.url), "utf8"), /allow_implicit_invocation: false/);
   }
 });
 test("architect preset selects its skill and three roles", () => {
