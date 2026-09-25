@@ -11,7 +11,7 @@ Atlas owns the default catalog and its content. AFK owns the CLI, installation, 
 `feat/skills-v2` is the review branch. The existing authored skills are archived under `legacy/`; production `main` is unchanged. The first new workflow is **Investigate**. Other workflows remain proposals.
 
 ```bash
-npx skills add https://github.com/logbookfordevs/logbook-atlas/tree/feat/skills-v2 --skill logbook-investigate
+npx skills add https://github.com/logbookfordevs/logbook-atlas#feat/skills-v2 --skill logbook-investigate
 ```
 
 - [Investigate entry](skills/logbook-investigate/SKILL.md)

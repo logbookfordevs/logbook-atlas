@@ -26,6 +26,7 @@ The Astra article and Writing for Agents shaped authoring, not a runtime depende
 
 - `pnpm check`: lint, generated-package parity and 12 tests pass.
 - Tests exercise snapshot/license tampering, patch replay mismatch, stale authored/generated output, self-contained reference resolution, optional dependency metadata and all archived bytes. Existing catalog and hook tests pass.
+- The published branch uses the explicit ref fragment `https://github.com/logbookfordevs/logbook-atlas#feat/skills-v2`; the CLI misparses a slash-containing branch in a `/tree/` URL.
 - Standard `npx skills add <package> --list`: discovers exactly `logbook-investigate` with its intended description.
 - Standard skills CLI copy-install into a disposable project for Codex: succeeds. Installed files match every checksum in the package receipt. Personal/global installed skills were not changed.
 - Existing switchyard snapshot refreshed for Investigate and two previously added independent skills; its validator passes with 55 catalog entries and 5 profiles.

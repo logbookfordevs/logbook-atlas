@@ -42,7 +42,7 @@ export function validateCatalog() {
   const skills = readManifest("skills.json");
   for (const item of skills.items ?? []) {
     if (item.source === legacyRepository) errors.push(`skills.json: ${item.id} still uses the legacy repository`);
-    if ((item.source === canonicalRepository || item.source === `${canonicalRepository}/tree/feat/skills-v2`) && !existsSync(join(repositoryRoot, "skills", item.id, "SKILL.md")) && !existsSync(join(repositoryRoot, "legacy", item.id, "SKILL.md"))) {
+    if ((item.source === canonicalRepository || item.source === `${canonicalRepository}#feat/skills-v2`) && !existsSync(join(repositoryRoot, "skills", item.id, "SKILL.md")) && !existsSync(join(repositoryRoot, "legacy", item.id, "SKILL.md"))) {
       errors.push(`skills.json: missing authored skill ${item.id}`);
     }
   }
